@@ -1,12 +1,15 @@
-Group 1: Personal Fitness Planner
-Objective: Build a simple fitness planner that helps users manage workout schedules.
+Group 3: Simple Budget Manager
+Objective: Develop a console-based tool to help users manage and track their budget.
 
 Instructions:
 
-Create Classes:
-User class with properties for Name, Age, and FitnessGoal.
-Workout class with properties like WorkoutName, Difficulty, and Duration.
-Generate Workout Plans: Write a method in the User class that creates a weekly workout schedule based on the FitnessGoal.
-Track Progress: Add a method to log completed workouts and display progress (e.g., "You completed 3 workouts this week!").
-Save Data: Use file handling to save the user's profile and workouts so the data can be loaded later.
-Bonus: Let users rate workouts (e.g., "easy" or "hard") and adjust future plans.
+Define Classes:
+User class: Properties for Name and MonthlyBudget.
+Expense class: Properties for Category, Amount, and Date.
+Main Menu: Create options for:
+Add a new expense.
+View all expenses and the remaining budget for the month.
+Edit or delete an expense.
+Data Summary: Display total expenses per category and remaining balance.
+File Handling: Save and load expenses so the data persists between uses.
+Bonus: Alert the user if their remaining budget falls below a certain percentage (e.g., 20%).
